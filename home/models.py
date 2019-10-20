@@ -10,7 +10,7 @@ class Information(models.Model):
     phoneNumber = models.CharField(max_length=13, null=True, blank=True)
 
     class Meta :
-        verbose_name_plural = 'Info'
+        verbose_name_plural = 'Info '
 
     def __str__(self):
         return '{0}| {1}'.format(self.name,self.age)
